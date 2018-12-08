@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Maven.BaseClass">
+      <class name="com.Maven.GoogleTitleTest">
         <methods>
+          <include name="test"/>
+          <include name="setUp"/>
+          <include name="testTitle"/>
+          <include name="teardown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.Maven.BaseClass -->
+      </class> <!-- com.Maven.GoogleTitleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

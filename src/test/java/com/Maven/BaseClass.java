@@ -14,7 +14,7 @@ public class BaseClass {
 	
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://Opensource-Demo.Orangehrmlive.com/");
+		driver.get("https://www.google.com/");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().fullscreen();
 	}
