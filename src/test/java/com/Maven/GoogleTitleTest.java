@@ -31,10 +31,6 @@ public class GoogleTitleTest extends BaseClass {
 	     
 	        PageTitle = driver.getTitle();
 	        System.out.println("ActualTitle is "+ PageTitle);
-}
-@Test(priority=2)
-	 public void testTitle() {
-
 			String Title = driver.getTitle();
 			System.out.println(Title);
 			Assert.assertEquals(Title, "Google");
